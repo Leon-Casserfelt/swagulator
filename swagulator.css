@@ -1,0 +1,51 @@
+@import "base.css";
+
+.page {
+    height: 100%;
+    width: 100%;
+    background-color: var(--färg3);
+    position: fixed;
+
+}
+
+.body {
+    text-align: center;
+    font-size: 60px;
+    color: var(--färg);
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+
+}
+.displayfont{
+    font-size: 120px;
+    color: var(--färg);
+    text-shadow: 2px 2px 2px black;
+    
+}
+.buttons{
+    height: 120px;
+    width: 120px;
+    font-size: 80px;
+    border: 1px 1px 1px black;
+    background-color: var(--färg2);
+    color: var(--färg);
+    text-shadow: 2px 2px 2px black;
+    margin-top: 1px;
+    
+}
+.display {
+    height: 120px;
+    width:1000px;
+    border: solid 2px black;
+    background-color: lightgrey;
+    background-color: var(--färg2);
+    margin: auto;
+}
+.box {
+    height: 606px;
+    width: 390px;
+    border: solid 2px black;
+    background-color: var(--färg2);
+    margin: auto;
+}
